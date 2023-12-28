@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100&family=Encode+Sans+SC:wght@100&family=Noto+Serif+Balinese&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: black;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  font-family: 'Encode Sans SC', sans-serif;
+
+
+}
+.title {
+  background: url(../src/img/title.jpg);
+  padding: 150px;
+  color: whitesmoke;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+.title h1 {
+  padding-bottom: 20px;
+}
+.title button {
+  background: #83b0ad;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  padding: 20px 45px;
+  border-radius: 5px; 
+}
+.portfolio {
+  height: 150vh;
+  background: #f3f7f8;
+  text-align: center;
+  color: gray;
+  padding-top: 70px;
+}
+
+.portfolio h1 {
+  padding: 30px;
+}
+
+.portfolio p {
+  margin:0 250px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin:0 250px;
+}
+
+.card {
+  background: white;
+  width: 350px;
+  height: 350px;
+  margin-top: 50px; 
+}
+
+.card img {
+  width: 350px;
+  height: 300px;
+}
+
